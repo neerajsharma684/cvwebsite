@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(246, 244, 244);
+    margin: 0;
+}
+.Container{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.Header{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    background-color: black;
+    margin-bottom: 2%;
+}
+.head{
+    font-size: large;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+.head:hover{
+    font-size: x-large;
+    color: blue;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+}
+#cvHead{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(90, 90, 90);
+}
+#image{
+    width: 400px;
+}
+#cvImg{
+    width: 80%;
+}
+#detail{
+    display: flex;
+    flex-direction: column;
+}
+#email_icon{
+    height: 2%;
+    width: 2%;
+}
+#Name{
+    color: white;
+}
+#detailLine1{
+    color: grey;
+}
+#cvBody{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+#verline
+{
+    background-color: rgb(175, 172, 172);
+    width: 6px;
+}
+#line{
+    background-color: rgb(175, 172, 172);
+    height: 3px;
+}
+#line2{
+    background-color: rgb(175, 172, 172);
+    height: 3px;
+}
+#body1{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 70%;
+}
+#body2{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%; 
+}
+#title{
+    font-size: x-large;
+}
+#ed, #cerName, #obj, #strength, #declaration, #site, #skill, #lang, #HobbieList{
+    font-size: large;
+    font-weight: 548;
+}
+#Perc{
+    line-height: 2%;
+}
+#edIns{
+    font-size: medium;
+}
