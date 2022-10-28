@@ -22,7 +22,7 @@ body{
 }
 .head:hover{
     font-size: x-large;
-    color: blue;
+    color: rgb(39, 39, 238);
 }
 .Content{
     display: flex;
@@ -96,6 +96,13 @@ body{
 #ed, #cerName, #obj, #strength, #declaration, #site, #skill, #lang, #HobbieList{
     font-size: large;
     font-weight: 548;
+}
+#siteLink{
+    font-size: 80%;
+    line-height: 2%;
+}
+#site{
+    line-height: 2%;
 }
 #Perc{
     line-height: 2%;
