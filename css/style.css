@@ -95,7 +95,7 @@ body{
 }
 #ed, #cerName, #obj, #strength, #declaration, #site, #skill, #lang, #HobbieList{
     font-size: large;
-    font-weight: 548;
+    font-weight: 550;
 }
 #siteLink{
     font-size: 80%;
