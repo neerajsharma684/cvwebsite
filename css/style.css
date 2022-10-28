@@ -33,7 +33,7 @@ body{
     flex-direction: row;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(90, 90, 90);
+    background-color: #303745;
 }
 #image{
     width: 40%;
