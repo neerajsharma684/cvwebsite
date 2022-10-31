@@ -7,9 +7,7 @@ body{
     flex-direction: column;
 }
 .Header{
-    background-color: black;
-    width: 98%;
-    padding: 1%;
+    background-color: #232A35;
     margin-bottom: 2%;
 }
 .Body{
@@ -24,10 +22,13 @@ body{
     border: none;
     color: white;
     background: transparent;
+    height: 50px;
+    margin-left: 1%;
+    transition: font-size 1s;
 }
 #head:hover{
     font-size: x-large;
-    color: rgb(39, 39, 238);
+    background-color: black;
 }
 #cerImage{
     overflow: auto;
