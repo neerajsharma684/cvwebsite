@@ -10,19 +10,22 @@ body{
 .Header{
     display: flex;
     flex-direction: row;
-    padding: 1%;
-    background-color: black;
+    /* padding: 1%; */
+    background-color: #282A35;
     margin-bottom: 2%;
 }
 .head{
     font-size: large;
     border: none;
     color: white;
+    height: 50px;
+    margin-left: 1%;
     background-color: transparent;
+    transition: font-size 1s;
 }
 .head:hover{
     font-size: x-large;
-    color: rgb(39, 39, 238);
+    background-color: black;
 }
 .Content{
     display: flex;
