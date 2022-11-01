@@ -8,11 +8,14 @@ body{
 }
 .Header{
     background-color: #232A35;
-    margin-bottom: 2%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
 }
 .Body{
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 2%;
