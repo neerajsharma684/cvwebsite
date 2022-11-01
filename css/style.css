@@ -10,7 +10,8 @@ body{
 .Header{
     display: flex;
     flex-direction: row;
-    /* padding: 1%; */
+    overflow: hidden;
+    position: fixed;
     background-color: #282A35;
     margin-bottom: 2%;
 }
@@ -30,6 +31,7 @@ body{
 .Content{
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
 }
 #cvHead{
     display: flex;
