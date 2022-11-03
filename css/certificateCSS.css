@@ -1,54 +1,118 @@
 body{
-    background-color: rgb(222, 226, 230);
+    background-color: rgb(246, 244, 244);
     margin: 0;
 }
 .Container{
+    margin: 0px;
     display: flex;
     flex-direction: column;
 }
 .Header{
-    background-color: #232A35;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
     position: fixed;
     width: 100%;
+    background-color: #282A35;
+    margin-bottom: 2%;
 }
-.Body{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 2%;
-}
-#head{
+.head{
     font-size: large;
     border: none;
     color: white;
-    background: transparent;
     height: 50px;
     margin-left: 1%;
+    background-color: transparent;
     transition: font-size 1s;
 }
-#head:hover{
+.head:hover{
     font-size: x-large;
     background-color: black;
 }
-#cerImage{
-    overflow: auto;
-    white-space: nowrap;
+.Content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
-#cerImg{
+#cvHead{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #303745;
+}
+#image{
+    width: 40%;
+    margin-right: 2%;
+}
+#cvImg{
+    max-width: 250px;
     width: 100%;
-    margin: 1%;
-    display: inline-block;
+    min-width: 150px;
 }
-#badgeImg{
-    width: 60%;
+#detail{
+    display: flex;
+    flex-direction: column;
 }
-#certificate, #badge{
-    font-size: xx-large;
+#email_icon{
+    height: 2%;
+    width: 2%;
 }
-#cer, #badgeName{
-    font-size: larger;
-    font-weight: bold;
+#Name{
+    color: white;
+}
+#detailLine1{
+    color: grey;
+}
+#cvBody{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+#verline
+{
+    background-color: rgb(175, 172, 172);
+    width: 6px;
+}
+#line{
+    background-color: rgb(175, 172, 172);
+    height: 3px;
+}
+#line2{
+    background-color: rgb(175, 172, 172);
+    height: 3px;
+}
+#body1{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 70%;
+}
+#body2{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%; 
+}
+#title{
+    font-size: x-large;
+}
+#ed, #cerName, #obj, #strength, #declaration, #site, #skill, #lang, #HobbieList{
+    font-size: large;
+    font-weight: 550;
+}
+#siteLink{
+    font-size: 90%;
+    line-height: 2%;
+}
+#site{
+    line-height: 2%;
+}
+#Perc{
+    line-height: 2%;
+}
+#edIns{
+    font-size: medium;
 }
